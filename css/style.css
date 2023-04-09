@@ -1,0 +1,83 @@
+body {
+  font: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(211, 233, 233);
+}
+
+.navbar-brand {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.navbar-brand,
+.nav-link {
+  transition: color 0.3s ease;
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+  color: #d67d29;
+}
+
+#newsletter {
+  background-color: #35424a;
+  margin-top: -25px;
+}
+
+#newsletter h1 {
+  padding-bottom: 20px;
+}
+
+#showcase {
+  background: url('../img/showcase.jpg') no-repeat center center;
+  background-size: cover;
+}
+#showcase h1 {
+  padding-top: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+#showcase h2 {
+  color: white;
+  font-size: 2rem;
+}
+
+#showcase p {
+  color: white;
+}
+
+.card-img-top {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#boxes {
+}
+
+#boxes h3 {
+  font-weight: bold;
+}
+
+#boxes .card {
+  border: none;
+  background-color: transparent;
+}
+
+#boxes .card img {
+  width: 100px;
+}
+
+#boxes .card h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #201d1d;
+  margin: auto;
+  padding: auto;
+}
